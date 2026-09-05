@@ -1,0 +1,40 @@
+# Configuración Visual de Scoreboards para Escondite
+
+scoreboard-lobby:
+  title: "&e&lESCONDITE"
+  lines:
+    - "&7%now%"
+    - "&7&m------------------"
+    - "&fJugador: &a%player%"
+    - "&fMonedas: &e%coins%"
+    - ""
+    - "&e&lESTADÍSTICAS"
+    - "&fAsesinatos: &c%kills%"
+    - "&fVictorias: &a%wins%"
+    - "&7&m------------------"
+    - "&7mc.tu-servidor.com"
+
+scoreboard-waiting:
+  title: "&e&lESCONDITE &7[ESPERANDO]"
+  lines:
+    - "&7&m------------------"
+    - "&fArena: &a%arena%"
+    - "&fEstado: &eEsperando..."
+    - ""
+    - "&fJugadores: &a%players%&7/&c%max_players%"
+    - "&fMínimo necesario: &7%min_players%"
+    - "&7&m------------------"
+    - "&7mc.tu-servidor.com"
+
+scoreboard-ingame:
+  title: "&e&lESCONDITE &7[EN JUEGO]"
+  lines:
+    - "&7&m------------------"
+    - "&fTiempo: &e%time%"
+    - ""
+    - "&fEscondidos: &a%hiders%"
+    - "&fAsesinos: &c%seekers%"
+    - ""
+    - "&fTu Rol: &b%role%"
+    - "&7&m------------------"
+    - "&7mc.tu-servidor.com"

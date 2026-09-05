@@ -1,0 +1,15 @@
+com\Shinzrtx\escondite\models\Arena.class
+com\Shinzrtx\escondite\models\PlayerRole.class
+com\Shinzrtx\escondite\listeners\GameListener.class
+com\Shinzrtx\escondite\managers\GameTimer.class
+com\Shinzrtx\escondite\commands\EsconditeCommand.class
+com\Shinzrtx\escondite\models\GameState.class
+com\Shinzrtx\escondite\managers\ArenaManager.class
+com\Shinzrtx\escondite\managers\LobbyItemsManager.class
+com\Shinzrtx\escondite\managers\StatsManager.class
+com\Shinzrtx\escondite\managers\ScoreboardManager.class
+com\Shinzrtx\escondite\Escondite.class
+com\Shinzrtx\escondite\commands\LeaveCommand.class
+com\Shinzrtx\escondite\managers\GameTabManager.class
+com\Shinzrtx\escondite\models\PlayerStats.class
+com\Shinzrtx\escondite\managers\GuiManager.class

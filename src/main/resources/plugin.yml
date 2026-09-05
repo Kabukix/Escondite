@@ -1,0 +1,23 @@
+name: Escondite
+version: '2.1.0'
+main: com.Shinzrtx.escondite.Escondite
+api-version: '1.20'
+author: Shinzrtx
+softdepend: [PlaceholderAPI, TAB]
+
+permissions:
+  escondite.admin:
+    description: Permite administrar las arenas y configuraciones.
+    default: op
+  escondite.player:
+    description: Permite unirse, ver el menú de arenas y salir de partidas.
+    default: true
+
+commands:
+  escondite:
+    description: Comando principal del minijuego Escondite.
+    usage: /escondite
+  leave:
+    description: Permite salir de una partida en curso o del lobby.
+    aliases: [salir]
+    usage: /leave
